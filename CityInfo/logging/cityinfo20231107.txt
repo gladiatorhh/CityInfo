@@ -1,0 +1,95 @@
+2023-11-07 13:12:22.329 +03:30 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2023-11-07 13:12:22.396 +03:30 [DBG] Hosting starting
+2023-11-07 13:12:22.492 +03:30 [DBG] Using development certificate: CN=localhost (Thumbprint: 0E4C13B2B28E9BF389E678003636A26FF7311CB0)
+2023-11-07 13:12:22.514 +03:30 [INF] Now listening on: https://localhost:7060
+2023-11-07 13:12:22.515 +03:30 [INF] Now listening on: http://localhost:5245
+2023-11-07 13:12:22.515 +03:30 [DBG] Loaded hosting startup assembly CityInfo
+2023-11-07 13:12:22.516 +03:30 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2023-11-07 13:12:22.516 +03:30 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2023-11-07 13:12:22.517 +03:30 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-07 13:12:22.517 +03:30 [INF] Hosting environment: Development
+2023-11-07 13:12:22.517 +03:30 [INF] Content root path: C:\Users\Arian\source\repos\CityInfo\CityInfo\
+2023-11-07 13:12:22.518 +03:30 [DBG] Hosting started
+2023-11-07 13:12:22.548 +03:30 [DBG] Connection id "0HMUVENBQK1RK" accepted.
+2023-11-07 13:12:22.550 +03:30 [DBG] Connection id "0HMUVENBQK1RK" started.
+2023-11-07 13:12:22.557 +03:30 [DBG] Connection id "0HMUVENBQK1RL" accepted.
+2023-11-07 13:12:22.559 +03:30 [DBG] Connection id "0HMUVENBQK1RL" started.
+2023-11-07 13:12:22.591 +03:30 [DBG] Connection id "0HMUVENBQK1RL" received FIN.
+2023-11-07 13:12:22.591 +03:30 [DBG] Connection id "0HMUVENBQK1RK" received FIN.
+2023-11-07 13:12:22.600 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-07 13:12:22.600 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-07 13:12:22.643 +03:30 [DBG] Connection id "0HMUVENBQK1RK" stopped.
+2023-11-07 13:12:22.643 +03:30 [DBG] Connection id "0HMUVENBQK1RL" stopped.
+2023-11-07 13:12:22.644 +03:30 [DBG] Connection id "0HMUVENBQK1RK" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-07 13:12:22.645 +03:30 [DBG] Connection id "0HMUVENBQK1RL" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-07 13:12:23.058 +03:30 [DBG] Connection id "0HMUVENBQK1RM" accepted.
+2023-11-07 13:12:23.065 +03:30 [DBG] Connection id "0HMUVENBQK1RM" started.
+2023-11-07 13:12:23.108 +03:30 [DBG] Connection 0HMUVENBQK1RM established using the following protocol: "Tls12"
+2023-11-07 13:12:23.143 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/index.html - -
+2023-11-07 13:12:23.165 +03:30 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2023-11-07 13:12:23.315 +03:30 [DBG] Response markup is scheduled to include browser refresh script injection.
+2023-11-07 13:12:23.425 +03:30 [DBG] Response markup was updated to include browser refresh script injection.
+2023-11-07 13:12:23.429 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/index.html - - - 200 - text/html;charset=utf-8 287.9276ms
+2023-11-07 13:12:23.430 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 13:12:23.433 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 3.4519ms
+2023-11-07 13:12:23.446 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - -
+2023-11-07 13:12:23.477 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 30.2830ms
+2023-11-07 13:12:23.642 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - -
+2023-11-07 13:12:23.745 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/v1/swagger.json - - - 200 - application/json;charset=utf-8 102.8130ms
+2023-11-07 13:12:25.146 +03:30 [DBG] Connection id "0HMUVENBQK1RM" received FIN.
+2023-11-07 13:12:25.151 +03:30 [DBG] Connection id "0HMUVENBQK1RM" is closed. The last processed stream ID was 7.
+2023-11-07 13:12:25.153 +03:30 [DBG] Connection id "0HMUVENBQK1RM" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-07 13:12:25.157 +03:30 [DBG] Connection id "0HMUVENBQK1RM" stopped.
+2023-11-07 13:12:25.451 +03:30 [DBG] Connection id "0HMUVENBQK1RN" accepted.
+2023-11-07 13:12:25.452 +03:30 [DBG] Connection id "0HMUVENBQK1RN" started.
+2023-11-07 13:12:25.452 +03:30 [DBG] Connection id "0HMUVENBQK1RO" accepted.
+2023-11-07 13:12:25.453 +03:30 [DBG] Connection id "0HMUVENBQK1RO" started.
+2023-11-07 13:12:25.453 +03:30 [DBG] Connection id "0HMUVENBQK1RP" accepted.
+2023-11-07 13:12:25.454 +03:30 [DBG] Connection id "0HMUVENBQK1RP" started.
+2023-11-07 13:12:25.454 +03:30 [DBG] Connection id "0HMUVENBQK1RQ" accepted.
+2023-11-07 13:12:25.455 +03:30 [DBG] Connection id "0HMUVENBQK1RQ" started.
+2023-11-07 13:12:25.455 +03:30 [DBG] Connection 0HMUVENBQK1RN established using the following protocol: "Tls12"
+2023-11-07 13:12:25.456 +03:30 [DBG] Connection 0HMUVENBQK1RO established using the following protocol: "Tls12"
+2023-11-07 13:12:25.456 +03:30 [DBG] Connection id "0HMUVENBQK1RO" received FIN.
+2023-11-07 13:12:25.457 +03:30 [DBG] Connection id "0HMUVENBQK1RP" received FIN.
+2023-11-07 13:12:25.457 +03:30 [DBG] Connection id "0HMUVENBQK1RQ" received FIN.
+2023-11-07 13:12:25.457 +03:30 [DBG] Connection 0HMUVENBQK1RP established using the following protocol: "Tls12"
+2023-11-07 13:12:25.457 +03:30 [DBG] Connection id "0HMUVENBQK1RO" is closed. The last processed stream ID was 0.
+2023-11-07 13:12:25.458 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - -
+2023-11-07 13:12:25.458 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - -
+2023-11-07 13:12:25.458 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/_vs/browserLink - -
+2023-11-07 13:12:25.458 +03:30 [INF] Request starting HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - -
+2023-11-07 13:12:25.458 +03:30 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException:  Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.<FillHandshakeBufferAsync>g__InternalFillHandshakeBufferAsync|189_0[TIOAdapter](TIOAdapter adap, ValueTask`1 task, Int32 minSize)
+   at System.Net.Security.SslStream.ReceiveBlobAsync[TIOAdapter](TIOAdapter adapter)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](TIOAdapter adapter, Boolean receiveFirst, Byte[] reAuthenticationData, Boolean isApm)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2023-11-07 13:12:25.459 +03:30 [DBG] Connection id "0HMUVENBQK1RP" is closed. The last processed stream ID was 0.
+2023-11-07 13:12:25.459 +03:30 [DBG] Connection id "0HMUVENBQK1RO" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-07 13:12:25.461 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/_framework/aspnetcore-browser-refresh.js - - - 200 12348 application/javascript;+charset=utf-8 3.8361ms
+2023-11-07 13:12:25.462 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 4.1943ms
+2023-11-07 13:12:25.464 +03:30 [DBG] Connection id "0HMUVENBQK1RQ" stopped.
+2023-11-07 13:12:25.467 +03:30 [DBG] Connection id "0HMUVENBQK1RQ" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-07 13:12:25.466 +03:30 [DBG] Connection id "0HMUVENBQK1RO" stopped.
+2023-11-07 13:12:25.464 +03:30 [DBG] Connection id "0HMUVENBQK1RP" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-07 13:12:25.469 +03:30 [DBG] Connection id "0HMUVENBQK1RP" stopped.
+2023-11-07 13:12:25.471 +03:30 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2023-11-07 13:12:25.472 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-standalone-preset.js - - - 200 312163 application/javascript 14.8903ms
+2023-11-07 13:12:25.478 +03:30 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2023-11-07 13:12:25.479 +03:30 [INF] Request finished HTTP/2 GET https://localhost:7060/swagger/swagger-ui-bundle.js - - - 200 1061536 application/javascript 20.9833ms
+2023-11-07 13:14:38.260 +03:30 [DBG] Connection id "0HMUVENBQK1RN" is closing.
+2023-11-07 13:14:38.262 +03:30 [DBG] Connection id "0HMUVENBQK1RN" is closed. The last processed stream ID was 7.
+2023-11-07 13:14:38.263 +03:30 [DBG] Connection id "0HMUVENBQK1RN" received FIN.
+2023-11-07 13:14:38.264 +03:30 [DBG] Connection id "0HMUVENBQK1RN" sending FIN because: "The Socket transport's send loop completed gracefully."
+2023-11-07 13:14:38.301 +03:30 [DBG] Connection id "0HMUVENBQK1RN" stopped.
